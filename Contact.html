@@ -1,26 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Contact</title>
-    </head>
-    <body>
-        <nav>
-            <a href="Index.html">Home</a>
-            <a href="About.html">About Me</a>
-            <a href="hobbies.html">Hobbies</a>
-        </nav>
-        <H1>CONTACT US</H1>
-        
-        <SECTION id="bio">
-            
-        </SECTION>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="hobbies.html">hobbies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Information Section -->
+    <section id="bio">
+        <h2>Contact Information</h2>
+        <p>You can reach us through the following means:</p>
+        <ul>
+            <li>Email: <a href="mailto:elfemitsolutions@gmail.com">elfemitsolutions@gmail.com</a></li>
+                <li>Phone: <a href="tel:+2348072803721">(234) 8072823721</a></li>
+                <li>Address: 5, Kadiri Street, Oke Agbo, Ijebu Igbo, Ogun State.</li>
+            <li>Social Media:
+                <ul>
+                    <li><a href="https://facebook.com/yourpage" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/yourpage" target="_blank">Twitter</a></li>
+                    <li><a href="https://instagram.com/yourpage" target="_blank">Instagram</a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact-form">
+        <h2>Get in Touch</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 My Profile. All rights Reserved.</p>
-        <nav>
-            <a href="About.html">About Me</a>
-            <a href="hobbies.html">Hobbies</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <div>
+            <p>&copy; 2025 Elfem IT. solutions. All Rights Reserved.</p>
+        </div>
+        <div>
+            <p>Contact Us:</p>
+            <ul>
+                <li>Email: <a href="mailto:elfemitsolutions@gmail.com">elfemitsolutions@gmail.com</a></li>
+                <li>Phone: <a href="tel:+2348072803721">(234) 8072823721</a></li>
+                <li>Address: 5, Kadiri Street, Oke Agbo, Ijebu Igbo, Ogun State.</li>
+            </ul>
+        </div>
     </footer>
+
+</body>
 </html>
